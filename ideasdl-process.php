@@ -1,0 +1,49 @@
+<?php
+
+include('connect.php');
+
+
+// Check if the register button was clicked
+if (isset($_POST['register'])) {
+    // Define an associative array with the column names as keys
+    $data = array(
+        'std' => $_POST['std'],
+        'team' => $_POST['team'],
+        'education' => $_POST['education'],
+        'achievement' => $_POST['achievement'],
+        'pstexp' => $_POST['pstexp'],
+        'address' => $_POST['address'],
+        'city' => $_POST['city'],
+        'lga' => $_POST['lga'],
+        'state' => $_POST['state'],
+        'email' => $_POST['email'],
+        'website' => $_POST['website'],
+        'number' => $_POST['number'],
+        'altnumber' => $_POST['altnumber'],
+        'social' => $_POST['social'],
+        'cmp' => $_POST['cmp'],
+        'year' => $_POST['year'],
+        'media' => $_POST['media'],
+        'ideasl_info' => $_POST['ideasl_info'],
+        'sectr_bmodel' => $_POST['sectr_bmodel'],
+        'tventure' => $_POST['tventure'],
+        'doisi' => $_POST['doisi'],
+        'idov' => $_POST['idov'],
+        'pdtn' => $_POST['pdtn'],
+        'eppyi' => $_POST['eppyi'],
+        'eybm' => $_POST['eybm'],
+        'dymc' => $_POST['dymc'],
+        'mcb' => $_POST['mcb'],
+        'hwysv' => $_POST['hwysv'],
+        'wmymtq' => $_POST['wmymtq'],
+        'wse' => $_POST['wse'],
+        'ivest' => $_POST['ivest'],
+        'dygfb' => $_POST['dygfb'],
+        'amt' => $_POST['amt'],
+        'fndtyp' => $_POST['fndtyp'],
+        'uofds' => $_POST['uofds'],
+        'dopp' => $_POST['dopp'],
+        'qstn' => $_POST['qstn'],
+        'odas' => $_POST['odas']
+    );
+}
